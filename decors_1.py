@@ -1,11 +1,12 @@
 from datetime import datetime
 from os import path
-import sys
+# import sys  # нужен для костыльного варианта стр7-9
+from wiki_try import input_json_reader  # добавил этот файл в проект, импортировал оттуда
 
 
-sys.path.append('D:\\Python Projects')
-print(sys.path)
-from highl_try.wiki_try import input_json_reader
+# sys.path.append('D:\\Python Projects')  # "костыльный" вариант )))
+# print(sys.path)
+# from highl_try.wiki_try import input_json_reader
 
 
 def log_writer_with_path(file_path):
