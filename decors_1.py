@@ -25,6 +25,7 @@ def log_writer_with_path(file_path):
                           f'вернёт - {func_result},'
                           f'путь логера - {path.abspath(file_path)}\n')
             print('log file updated')
+            return func_result
 
         return logger
 
